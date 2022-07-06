@@ -1,12 +1,42 @@
 const { validationResult } = require("express-validator");
 
 class UserController {
-  async registration(req, res, next) {}
-  async login(req, res, next) {}
-  async logout(req, res, next) {}
-  async activate(req, res, next) {}
-  async refresh(req, res, next) {}
-  async getUsers(req, res, next) {}
+  async registration(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async login(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async logout(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async activate(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async refresh(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async getUsers(req, res, next) {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }
 
 module.exports = new UserController();
